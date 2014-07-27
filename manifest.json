@@ -1,0 +1,16 @@
+{
+  "name": "Truly Free Press",
+  "version": "0.7",
+  "manifest_version": 2,
+  "description": "Bypasses awful Chattanooga Times Free Press Paywall",
+  "background_page": "background.html",
+  "browser_action": {
+    "name": "Truly Free Press",
+    "icons": ["icon.png"],
+    "default_icon": "icon.png"
+  },
+  "content_scripts": [ {
+    "js": [ "jquery.min.js", "background.js" ],
+    "matches": [ "http://www.timesfreepress.com/"]
+  }]
+}

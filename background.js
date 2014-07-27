@@ -1,0 +1,1 @@
+$("body > *").children().not("body > #background, #midground, #foreground, #matrixfooter, #thebigoneMainWrap, #headerWrap, #subNavWrap, #slidebillboardWrap, #contentWrap, #footerDarkWrap, #footerLightWrap").remove();
